@@ -8,7 +8,11 @@
   author: "Gray Espinoza",
 )
 
+#set page(background: image("fig_3_1.png"))
+
 = To inscribe an equilateral and equiangular hexagon in a given circle.
+
+#set page(background: none)
 
 == Construction
 Given a circle, construct its center $O$ by III.1, then draw the diameter $A B$.
