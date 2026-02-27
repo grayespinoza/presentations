@@ -40,7 +40,7 @@ By SSS, triangles $A C O$ and $A D O$ are congruent.
 Hence, the angles of triangle $A D O$ equal the angles of triangle $A C O$.
 
 == Construction (cont.)
-As angle $C O A$ equals angle $A O D$, by I.13, angles $F O C, C O A$, and $A O D$ are equal to one another.
+As angle $C O A$ and angle $A O D$ are both equal to a third of two right-angles, by I.13, it follows that angle $F O C$ must also be equal to a third of two right-angles.
 #pause
 Therefore, by vertical angles, angles $F O C, C O A, A O D, D O E, E O B$, and $B O F$ are equal.
 #pause
@@ -48,4 +48,4 @@ By SAS, it follows that triangles $F O C, C O A, A O D, D O E, E O B$ and $B O F
 #pause
 Thus, sides $A C, C F, F B, B E, E D$ and $D A$ equal one another, and angles $D A C, A C F, C F B, F B E, B E D$ and $E D A$ equal one another.
 #pause
-Consequently, we have inscribed an equilateral and equiangular hexagon in a given circle.
+Consequently, we have inscribed an equilateral and equiangular hexagon in a given circle.#h(1fr)Q.E.F.
