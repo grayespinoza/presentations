@@ -42,7 +42,7 @@ Hence, the angles of triangle $A D O$ equal the angles of triangle $A C O$.
 == Construction (cont.)
 As angle $C O A$ and angle $A O D$ are both equal to a third of two right-angles, by I.13, it follows that angle $F O C$ must also be equal to a third of two right-angles.
 #pause
-Therefore, by vertical angles, angles $F O C, C O A, A O D, D O E, E O B$, and $B O F$ are equal.
+Therefore, by vertical-angles, angles $F O C, C O A, A O D, D O E, E O B$, and $B O F$ are equal.
 #pause
 By SAS, it follows that triangles $F O C, C O A, A O D, D O E, E O B$ and $B O F$ are congruent.
 #pause
