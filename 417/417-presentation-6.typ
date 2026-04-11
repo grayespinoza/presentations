@@ -49,13 +49,37 @@
 #proof[...]
 
 == Similar Triangles
-#definition-box(
-  outlined: false,
-)[similarity of triangles][Two triangles $A B C$ and $A' B' C'$ are _similar_ if the three angles of one are respectively equal to the three angles of the other, and the corresponding sides are proportional, i.e., $ a/a'=b/b'=c/c'. $] <def:similarity>
+#definition-box(outlined: false)[similarity of triangles][
+  Two triangles $A B C$ and $A' B' C'$ are _similar_ if the three angles of one are respectively equal to the three angles of the other, and the corresponding sides are proportional, i.e., $ a/a'=b/b'=c/c'. $
+] <def:similarity>
 
 == AAA Similarity
-#proposition-box(
-  outlined: false,
-)[AAA Similarity][If two triangles $A B C$ and $D E F$ have their three angles respectively equaly, then the two triangles are similar.] <prop:AAA>
+#proposition-box(outlined: false)[AAA similarity][
+  If two triangles $A B C$ and $A' B' C'$ have their three angles respectively equal, then the two triangles are similar.
+] <prop:AAA>
 #pagebreak(weak: true)
 #proof[...]
+
+== SSS Similarity
+#proposition-box(outlined: false)[
+  In any triangle $A B C$, let $B' C'$ be drawn parallel to $B C$. Then, the sides $A B$ and $A C$ are proportional to $A B'$ and $A C'$. Conversely, if the sides are divided by points $B',D$ such that $A B,A C$ are proportional to $A B',A D$, then $B' D$ is parallel to $B C$.
+]
+#pagebreak(weak: true)
+#proposition-box(outlined: false)[SSS similarity][
+  If two triangles $A B C$ and $A' B' C'$ have their three sides respectively proportional to each other, then the two triangles are similar.
+] <prop:SSS>
+
+== SAS Similarity
+#proposition-box(outlined: false)[SAS similarity][
+  If two triangles $A B C$ and $A' B' C'$ have the angles at $A$ and $A'$ equal and the two sides $A B,A C$ are proportional to the two sides $A' B',A' C'$ respectively, then the two triangles are similar.
+] <prop:SAS>
+
+== Euclid's Theory of Similar Triangles
+#theorem-box(outlined: false)[
+  In any Hilbert plane with (P), the results of Euclid's theory of similar triangles (VI.2)-(VI.13) all hold.
+]
+
+== The Pythagorean Theorem
+#proposition-box(outlined: false)[the Pythagorean theorem][
+  If $A B C$ is a right-triangle with legs $a,b$ and hypotenuse $c$, then $a^2+b^2=c^2$ in the field $F$ of segment arithmetic.
+] <prop:pythagorean>
