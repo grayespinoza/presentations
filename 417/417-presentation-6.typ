@@ -28,7 +28,7 @@
 ] <prop:addition>
 #pagebreak(weak: true)
 #set-qed-symbol[Q.E.D.]
-#proof[...]
+#proof[(1) Take $A' B'$ to be another representative of class $a$. Choose $C'$ on line $A' B'$ such that $B' C'$ represents class $b$ with $A'*B'*C'$. Then, by (C3), $A C tilde.equiv A' C'$. (2) Let $A B$ represent class $a$. Choose $C$ on line $A B$ such that $B C$ represents class $b$ with $A*B*C$. Hence, $A C$ represents $a+b$. Now, take $D E$ to represent class $b$. Choose $F$ on line $D E$ such that $E F$ represents class $a$ with $D*E*F$. Hence, $D F$ represents $b+a$. However, $A B tilde.equiv F E$ and $B C tilde.equiv E D$, so $A C tilde.equiv F D$ by (C3).]
 
 == The Product of Line Segments
 #definition-box(outlined: false)[the product of line segments][
@@ -46,7 +46,7 @@
   6. $a(b+c)=a b+a c$ for all $a,b,c$.
 ] <prop:multiplication>
 #pagebreak(weak: true)
-#proof[...]
+#proof[(1) Take $A' B' C'$ to be another right-triangle with $A' B' in 1$ and $B' C' in a$ where the right-angle is at $B'$. Then, by SAS, $A' B' C'$ is congruent to $A B C$. Hence, we get the congruent angle $alpha$ at angle $B' A' C'$. If $D' E' F'$ is another right-triangle with angle $alpha$ at angle $E' D' F'$, side $b$, and right-angle at $E'$, then, by ASA, $D' E' F'$ is congruent to $D E F$. Hence, we get the congruent side $a b$ at segment $E' F'$. (2) Take right-triangle $D E F$ to have angle $alpha$, side $b=1$, and right-angle at $E$. By ASA, $D E F$ is congruent to $A B C$, so $a dot 1=a$.]
 
 == Similar Triangles
 #definition-box(outlined: false)[similarity of triangles][
